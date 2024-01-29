@@ -1,0 +1,269 @@
+/* Footer */
+.Footer {
+   background-color: #34495e;
+   color: #fff; /* Text color is now white */
+   padding: 20px;
+   animation: fadeIn 2s ease-in;
+}
+
+@keyframes fadeIn {
+   from { opacity: 0; }
+   to { opacity: 1; }
+}
+
+.main {
+   padding: 20px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.logo_sec {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   
+}
+
+
+.logo_sec h1{
+   font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+
+.upper-info {
+   display: flex;
+   justify-content: space-around;
+   width: 100%;
+   padding: 20px;
+   margin-bottom: 20px;
+}
+
+.upper-info h2 {
+   margin-right:10px; 
+   font-size: 1.2rem;
+   
+}
+
+.upper-info i {
+   margin-right: 5px;
+   font-size: 20px;
+   margin-left: 150px;
+   padding: 10px;
+}
+
+.footer-line {
+   width: 90%;
+   height: 1px;
+   background-color: #ecf0f1;
+   margin: 20px auto;
+}
+
+.bellow-info {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   width: 100%;
+}
+
+.bellow-info div {
+   flex: 1 0 200px;
+   margin: 20px;
+   text-align: center;
+}
+
+.footer-links i{
+   margin: 10px;
+   font-size: 2px;
+}
+/* Use media queries for responsiveness */
+@media screen and (max-width: 768px) {
+   .main h1,
+   .upper-info h2,
+   .bellow-info h2,
+   .bellow-info p,
+   .bellow-info ul,
+   i {
+       font-size: 1.2rem;
+   }
+}
+
+/* Add some hover effects for interactivity */
+.upper-info i:hover,
+.bellow-info i:hover,
+i.fa-brands:hover {
+   color: #ff6347;
+   transform: scale(1.1);
+   transition: all 0.3s ease;
+}
+
+/* Add some animations */
+@keyframes slideIn {
+   from { transform: translateY(-50px); opacity: 0; }
+   to { transform: translateY(0); opacity: 1; }
+}
+
+/* ... rest of your CSS ... */
+.main #logo {
+   width: 60px; /* Adjust as needed */
+   height: auto; /* Maintain aspect ratio */
+   margin-bottom: 10px;
+}
+
+.upper-info {
+   display: flex;
+   justify-content: space-around;
+   width: 100%;
+   padding: 20px;
+   margin-bottom: 20px;
+}
+
+
+
+@media screen and (max-width: 600px) {
+   .main, .logo_sec, .upper-info, .bellow-info {
+      flex-direction: column;
+      align-items: center;
+   }
+   .upper-info, .bellow-info {
+      width: 100%;
+   }
+   .bellow-info div {
+      flex: 1 0 100%;
+   }
+   .upper-info i {
+      display: flex;
+      margin-right: 150px;
+   }
+   .footer-links i{
+    margin: 10px;  
+    font-size: 25px;
+   }
+   .upper-info h2{
+      font-size: 20px;
+      text-align: center;
+      margin-left: 20px;
+   }
+   .bellow-info{
+      align-items: center;
+      margin-left: 50px;
+   }
+   .bellow-info h2{
+      font-size: 10px;
+   }
+   .bellow-info ul{
+      font-size: 10px;
+   }
+   .bellow-info p{
+      font-size: 10px;
+   }
+}
+
+/* CSS rules for small devices */
+@media screen and (min-width: 601px) and (max-width: 768px) {
+   .bellow-info{
+      margin-right: 60px;
+   }
+   .bellow-info p{
+      text-align: center;
+      margin-right: 10px;
+   }
+   
+   .upper-info{
+      display: none;
+   }
+   .bellow-info {
+      text-align: center;
+      width: 500px;
+      display: flex;
+      flex-direction: row;
+      margin-left: 80px;
+   }
+   .bellow-info ul{
+      font-size: 1.5rem;
+   }
+   .bellow-info h2{
+      text-align: center;
+      font-size: 1.8rem;
+   }
+   .footer-links i{
+      margin: 10px;
+      font-size: 35px;
+   }
+   .logo_sec h1{
+      font-size: 25px;
+   }
+   .bellow-info i{
+      font-size: 25px;
+   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 932px) {
+   .bellow-info{
+      margin-right: 60px;
+   }
+   .bellow-info p{
+      text-align: center;
+      margin-right: 10px;
+   }
+   .upper-info{
+      display: none;
+   }
+   .bellow-info {
+      text-align: center;
+      width: 350px;
+      display: flex;
+      flex-direction: row;
+      margin-left: 80px;
+   }
+   .bellow-info ul{
+      font-size: 1.2rem;
+   }
+   .bellow-info h2{
+      text-align: center;
+      font-size: 1.5rem;
+   }
+   .bellow-info p{
+      text-align: center;
+      font-size: 1.2rem;
+      margin-left: 20px;
+   }
+   .footer-links i{
+      margin: 10px;
+      font-size: 35px;
+   }
+   .logo_sec h1{
+      font-size: 25px;
+   }
+   .bellow-info i{
+      font-size: 25px;
+   }
+}
+/* CSS rules for medium devices */
+@media screen and (min-width: 769px) and (max-width: 1180px) {
+   .bellow-info{
+      margin-right: 60px;
+   }
+   .bellow-info p{
+      text-align: center;
+      margin-right: 10px;
+   }
+}
+
+/* CSS rules for large devices */
+@media screen and (min-width: 1181px) {
+   /* Add your styles for large devices here */
+}
