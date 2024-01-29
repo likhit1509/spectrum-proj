@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/spectrum-proj/static/css/main.c096e1a7.css",
-    "main.js": "/spectrum-proj/static/js/main.b46b8f7e.js",
+    "main.js": "/spectrum-proj/static/js/main.455ef6ba.js",
     "static/js/787.8a9dcc03.chunk.js": "/spectrum-proj/static/js/787.8a9dcc03.chunk.js",
     "static/media/img2.png": "/spectrum-proj/static/media/img2.61fee309def4000870a9.png",
     "static/media/image4.jpg": "/spectrum-proj/static/media/image4.2c94c27881d063844e80.jpg",
@@ -39,11 +39,11 @@
     "static/media/slick.woff": "/spectrum-proj/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/spectrum-proj/index.html",
     "main.c096e1a7.css.map": "/spectrum-proj/static/css/main.c096e1a7.css.map",
-    "main.b46b8f7e.js.map": "/spectrum-proj/static/js/main.b46b8f7e.js.map",
+    "main.455ef6ba.js.map": "/spectrum-proj/static/js/main.455ef6ba.js.map",
     "787.8a9dcc03.chunk.js.map": "/spectrum-proj/static/js/787.8a9dcc03.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c096e1a7.css",
-    "static/js/main.b46b8f7e.js"
+    "static/js/main.455ef6ba.js"
   ]
 }
